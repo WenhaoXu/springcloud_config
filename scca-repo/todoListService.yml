@@ -31,3 +31,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:1001/eureka/
+      
+info:
+  profile: default
