@@ -1,7 +1,8 @@
-# Spring 数据源 (DataSourceAutoConfiguration & DataSourceProperties)
 spring:
   application:
-    name: todoListService
+    name: accountService
+
+# Spring 数据源 (DataSourceAutoConfiguration & DataSourceProperties)
 #配置数据源：
   datasource:
 #  数据源所使用的驱动
