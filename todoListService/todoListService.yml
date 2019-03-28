@@ -36,10 +36,10 @@ eureka:
 
 
 
-security:
-  oauth2:
-    resource:
-      userInfoUri: http://localhost:1006/user
+#security:
+#  oauth2:
+#    resource:
+#      userInfoUri: http://localhost:1006/user
 
 
 info:
