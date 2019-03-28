@@ -33,7 +33,14 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://localhost:1002/eureka
-        
+
+
+
+security:
+  oauth2:
+    resource:
+      userInfoUri: http://localhost:1006/user
+
 
 info:
   profile: default
